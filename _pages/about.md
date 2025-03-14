@@ -33,4 +33,5 @@ My research explores political economy and culture, examining how these dynamics
 
 In my work, I integrate insights from economics, political science, and anthropology, employing methods ranging from experimental economics to ethnography.
 
+At Harvard, I am a Graduate Student Associate at the [Weatherhead Center for International Affairs](https://www.wcfia.harvard.edu/), a Graduate Student Affiliate at the [Institute for Quantitative Social Science (IQSS)](https://www.iq.harvard.edu/) and the [Center for International Development (CID)](https://www.hks.harvard.edu/centers/cid), and a regular attendee at the [Culture, Cognition, Coevolution Lab](https://coevolution.fas.harvard.edu/).
 
