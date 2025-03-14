@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Harvard University - Department of Government</a>.
+subtitle: <a href='https://www.gov.harvard.edu/'>Harvard University - Department of Government</a>.
 
 profile:
   align: right
