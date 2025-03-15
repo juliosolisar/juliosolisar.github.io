@@ -383,12 +383,10 @@ ninja.data = [{
             },},{id: "news-i-will-be-presenting-at-the-thurgau-experimental-economics-meeting-in-kreuzlingen-theem-switzerland",
           title: 'I will be presenting at the Thurgau Experimental Economics Meeting in Kreuzlingen (THEEM),...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-i-will-be-presenting-at-yale-s-identity-amp-amp-conflict-lab-conference-in-delphi-greece",
+          title: 'I will be presenting at Yale’s Identity &amp;amp;amp; Conflict Lab conference in Delphi,...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
