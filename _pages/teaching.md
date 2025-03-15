@@ -24,8 +24,7 @@ GOV97: <a href="https://www.gov.harvard.edu/undergraduate/academics/concentratio
 <strong>Economic Development: Theory and Evidence</strong> (Instructor(s): <a>Eliana La Ferrara and Dani Rodrik</a>)<br>
 <em>Fall 2024: Teaching Fellow</em> <br> <br>
 DEV101: <a href="https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development#curriculum">Core curriculum</a> of the Master of Public Administration in International Development (MPA/ID) program at Harvard Kennedy School of Government <br>
-<a href="assets/pdf/theem25.pdf" target="_blank">here</a>
-<a href="assets/pdf/dev101.pdf" target="_blank">Syllabus</a>
+<a href="https://juliosolisar.github.io/assets/pdf/dev101.pdf" target="_blank">Syllabus</a>
 </div>
 </div>
 
@@ -36,7 +35,7 @@ DEV101: <a href="https://www.hks.harvard.edu/educational-programs/masters-progra
 <strong>Causal Inference with Applications</strong> (Instructor: <a>Kosuke Imai</a>)<br>
 <em>Spring 2024: Teaching Fellow</em><br> <br>
 GOV2003: <a href="https://governmentmethods.hsites.harvard.edu/graduate-courses">Government Department PhD Methods Sequence</a> <br>
-<a href="assets/pdf/gov2001.pdf" target="_blank">Syllabus</a>
+<a href="https://juliosolisar.github.io/assets/pdf/gov2001.pdf" target="_blank">Syllabus</a>
 </div>
 </div>
 
