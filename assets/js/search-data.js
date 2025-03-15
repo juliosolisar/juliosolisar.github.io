@@ -380,18 +380,15 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-will-be-presenting-at-the-thurgau-experimental-economics-meeting-in-kreuzlingen-theem-switzerland",
+          title: 'I will be presenting at the Thurgau Experimental Economics Meeting in Kreuzlingen (THEEM),...',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
