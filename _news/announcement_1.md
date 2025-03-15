@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be presenting at the Thurgau Experimental Economics Meeting ([THEEM](https://www.twi-kreuzlingen.ch/events/theem/)) in Kreuzlingen, Switzerland 🇨🇭.
+I will be presenting at the Thurgau Experimental Economics Meeting ([THEEM](https://www.twi-kreuzlingen.ch/events/theem/)) in Kreuzlingen, Switzerland 🇨🇭
