@@ -30,7 +30,7 @@ latest_posts:
 
 I am a PhD candidate in the Department of Government at Harvard University.
 
-My research explores political economy and culture, examining how these dynamics shape political and economic development in Sub-Saharan Africa and, more recently, Latin America. I am particularly interested in the collective choice rules and political institutions of non-state societies, both past and present.
+My research explores political economy and culture, examining how these dynamics shape political and economic development in Sub-Saharan Africa and Latin America. I am particularly interested in the collective choice rules and political institutions of non-state societies, both past and present.
 
 In my work, I integrate insights from economics, political science, and anthropology, employing methods ranging from experimental economics to ethnography.
 
