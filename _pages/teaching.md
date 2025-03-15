@@ -13,7 +13,7 @@ nav_order: 6
 <div class="card mt-3">
 <div class="p-3">
 <strong>Comparing Societies: Cross-Cultural Approaches to Politics</strong><br>
-<em>Spring 2025: Instructor</em><br> <br>
+<em>Spring 2025: Lead Instructor</em><br> <br>
 GOV97: <a href="https://www.gov.harvard.edu/undergraduate/academics/concentration-requirements/gov-97-the-sophomore-tutorial-in-government/">Sophomore tutorial</a> for Government concentrators at Harvard College <br>
 <a href="https://docs.google.com/document/d/1E2qcNwr2B_TwQmHaB-O0vjuccA8GEVM79Lb5AmQcLBQ/edit?usp=sharing" target="_blank">Syllabus (In Progress)</a>
 </div>
