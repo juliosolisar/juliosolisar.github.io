@@ -24,6 +24,7 @@ GOV97: <a href="https://www.gov.harvard.edu/undergraduate/academics/concentratio
 <strong>Economic Development: Theory and Evidence</strong> (Instructor(s): <a>Eliana La Ferrara and Dani Rodrik</a>)<br>
 <em>Fall 2024: Teaching Fellow</em> <br> <br>
 DEV101: <a href="https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development#curriculum">Core curriculum</a> of the Master of Public Administration in International Development (MPA/ID) program at Harvard Kennedy School of Government <br>
+<a href="assets/pdf/theem25.pdf" target="_blank">here</a>
 <a href="assets/pdf/dev101.pdf" target="_blank">Syllabus</a>
 </div>
 </div>
