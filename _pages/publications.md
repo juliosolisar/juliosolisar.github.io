@@ -5,19 +5,15 @@ title: research
 nav: true
 nav_order: 2
 ---
-<!-- _pages/research.md -->
+
+<!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
 <div class="publications">
 
-<h1>Work in Progress</h1>
-
-{% bibliography -f papers -q @misc %}
-
-<h1>Published papers</h1>
-
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @article[year={{y}}]* %}
-{% endfor %}
-
+{% bibliography %}
 
 </div>
