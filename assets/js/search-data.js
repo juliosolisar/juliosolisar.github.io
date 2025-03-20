@@ -380,8 +380,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-will-be-presenting-at-the-thurgau-experimental-economics-meeting-theem-in-kreuzlingen-switzerland-check-the-program-here",
-          title: 'I will be presenting at the Thurgau Experimental Economics Meeting (THEEM) in Kreuzlingen,...',
+            },},{id: "news-i-presented-at-the-thurgau-experimental-economics-meeting-theem-in-kreuzlingen-switzerland-check-the-program-here",
+          title: 'I presented at the Thurgau Experimental Economics Meeting (THEEM) in Kreuzlingen, Switzerland 🇨🇭....',
           description: "",
           section: "News",},{id: "news-i-will-be-presenting-at-yale-s-identity-amp-amp-conflict-lab-conference-in-delphi-greece",
           title: 'I will be presenting at Yale’s Identity &amp;amp;amp; Conflict Lab conference in Delphi,...',
