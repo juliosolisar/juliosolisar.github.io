@@ -386,6 +386,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-presenting-at-yale-s-identity-amp-amp-conflict-lab-conference-in-delphi-greece",
           title: 'I will be presenting at Yale’s Identity &amp;amp;amp; Conflict Lab conference in Delphi,...',
           description: "",
+          section: "News",},{id: "news-from-june-to-july-i-will-be-a-visiting-fellow-at-the-international-development-and-global-cooperation-and-social-cohesion-units-at-the-kiel-institute-for-the-world-economy-ifw-kiel-in-germany",
+          title: 'From June to July, I will be a Visiting Fellow at the International...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
