@@ -4,7 +4,6 @@
     "label": "PhD Candidate in Government",
     "email": "jsolisarce@g.harvard.edu",
     "phone": "+1 617 290 8291",
-    "birthDate": "1993-07-06",
     "location": {
       "city": "Cambridge",
       "region": "MA",
@@ -62,6 +61,11 @@
       "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4570855",
       "startDate": "2023"
     },
+    {
+      "name": "CausalQueries: Make, Update, and Query Binary Causal Models",
+      "url": "https://cran.r-project.org/web/packages/CausalQueries/index.html",
+      "startDate": "2020"
+    }
   ],
   "work": [
     {
