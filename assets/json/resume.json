@@ -25,7 +25,8 @@
       "studyType": "PhD",
       "startDate": "2021",
       "endDate": null,
-      "location": "Cambridge, MA, US"
+      "location": "Cambridge, MA, US",
+      "url": "https://www.gov.harvard.edu/"
     },
     {
       "institution": "African School of Economics (ASE)",
@@ -33,7 +34,8 @@
       "studyType": "Master's",
       "startDate": "2018",
       "endDate": "2020",
-      "location": "Cotonou, Benin"
+      "location": "Cotonou, Benin",
+      "url": "https://africanschoolofeconomics.com/"
     },
     {
       "institution": "Instituto Tecnol\u00f3gico Aut\u00f3nomo de M\u00e9xico (ITAM)",
@@ -41,7 +43,8 @@
       "studyType": "BA",
       "startDate": "2011",
       "endDate": "2017",
-      "location": "Mexico City, Mexico"
+      "location": "Mexico City, Mexico",
+      "url": "https://www.itam.mx/"
     }
   ],
   "publications": [
@@ -113,21 +116,19 @@
   "references": [
     {
       "name": "Macartan Humphreys",
-      "organization": "WZB Berlin Social Science Center",
-      "email": "macartan.humphreys@wzb.eu",
-      "phone": "+49 (302) 549-1369",
+      "reference": "WZB Berlin Social Science Center, macartan.humphreys@wzb.eu"
     },
     {
       "name": "Torben Iversen",
-      "reference": "Harvard University, iversen@fas.harvard.edu, +1 (617) 384-5847"
+      "reference": "Harvard University, iversen@fas.harvard.edu"
     },
     {
       "name": "Pia Raffler",
-      "reference": "Harvard University, praffler@gov.harvard.edu , +1 (617) 495-4765"
+      "reference": "Harvard University, praffler@gov.harvard.edu"
     },
     {
       "name": "Leonard Wantchekon",
-      "reference": "Princeton University and African School of Economics, lwantche@princeton.edu, +1 (609) 258-6723"
+      "reference": "Princeton University and African School of Economics, lwantche@princeton.edu"
     }
   ]
 }
