@@ -67,17 +67,19 @@
   "work": [
     {
       "position": "Research Assistant",
-      "organization": "Harvard University, Department of Economics",
+      "name": "Harvard University, Department of Economics",
       "startDate": "2022",
       "endDate": "2024",
-      "location": "Cambridge, MA, US"
+      "location": "Cambridge, MA, US",
+      "summary": "Advisor: David Yang"
     },
     {
       "position": "Predoctoral Research Fellow",
-      "organization": "WZB Berlin Social Science Center",
+      "name": "WZB Berlin Social Science Center",
       "startDate": "2019",
       "endDate": "2021",
-      "location": "Berlin, Germany"
+      "location": "Berlin, Germany",
+      "summary": "Advisor: Macartan Humphreys"
     }
   ],
   "skills": [
