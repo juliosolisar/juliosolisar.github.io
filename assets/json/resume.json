@@ -113,7 +113,9 @@
   "references": [
     {
       "name": "Macartan Humphreys",
-      "reference": "WZB Berlin Social Science Center, macartan.humphreys@wzb.eu, +49 (302) 549-1369"
+      "organization": "WZB Berlin Social Science Center",
+      "email": "macartan.humphreys@wzb.eu",
+      "phone": "+49 (302) 549-1369",
     },
     {
       "name": "Torben Iversen",
@@ -121,7 +123,7 @@
     },
     {
       "name": "Pia Raffler",
-      "reference": "Harvard University, pra.ffler@gov.harvard.edu, +1 (617) 495-4765"
+      "reference": "Harvard University, praffler@gov.harvard.edu , +1 (617) 495-4765"
     },
     {
       "name": "Leonard Wantchekon",
