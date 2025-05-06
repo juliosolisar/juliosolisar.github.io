@@ -24,7 +24,7 @@ nav_order: 6
   <div class="p-3">
     <strong>Economic Development: Theory and Evidence</strong><br>
     <em>Fall 2024: Teaching Fellow</em><br><br>
-    DEV101: Core curriculum of the <a href="https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development#curriculum" target="_blank">Master of Public Administration in International Development (MPA/ID)</a> program at the Harvard Kennedy School<br>
+    DEV101: Core curriculum of the <a href="https://www.hks.harvard.edu/educational-programs/masters-programs/master-public-administration-international-development#curriculum" target="_blank">Master in Public Administration in International Development (MPA/ID)</a> program at the Harvard Kennedy School<br>
     Instructor: Eliana La Ferrara and Dani Rodrik<br>
     <a href="https://juliosolisar.github.io/assets/pdf/dev101.pdf" target="_blank">Syllabus</a>
   </div>
