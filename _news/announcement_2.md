@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be presenting at [Yale's Identity & Conflict Lab](https://campuspress.yale.edu/yaleicl/) conference in Delphi, Greece 🇬🇷
+I presented at [Yale's Identity & Conflict Lab](https://campuspress.yale.edu/yaleicl/) conference in Delphi, Greece 🇬🇷. Check the program <a href="assets/pdf/delphi25.pdf" target="_blank">here</a>
