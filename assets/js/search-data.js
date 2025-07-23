@@ -405,6 +405,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-attending-the-2025-empirical-implications-of-theoretical-models-eitm-summer-institute-at-the-university-of-michigan",
           title: 'I’ll be attending the 2025 Empirical Implications of Theoretical Models (EITM) Summer Institute...',
           description: "",
+          section: "News",},{id: "news-i-ll-be-attending-the-4th-annual-political-economy-summer-school-organized-by-the-association-for-comparative-economic-studies-aces-in-zanzibar-tanzania",
+          title: 'I’ll be attending the 4th annual Political Economy Summer School organized by the...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
