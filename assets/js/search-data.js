@@ -399,6 +399,9 @@ ninja.data = [{
           section: "News",},{id: "news-from-june-to-july-2025-i-was-a-visiting-fellow-at-the-international-development-and-global-cooperation-and-social-cohesion-units-at-the-kiel-institute-for-the-world-economy-ifw-kiel-in-germany",
           title: 'From June to July 2025, I was a Visiting Fellow at the International...',
           description: "",
+          section: "News",},{id: "news-i-ll-be-part-of-the-2025-2026-ronald-coase-fellowship-cohort-at-the-mercatus-center",
+          title: 'I’ll be part of the 2025–2026 Ronald Coase Fellowship cohort at the Mercatus...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
