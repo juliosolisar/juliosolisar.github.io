@@ -402,6 +402,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-part-of-the-2025-2026-ronald-coase-fellowship-cohort-at-the-mercatus-center",
           title: 'I’ll be part of the 2025–2026 Ronald Coase Fellowship cohort at the Mercatus...',
           description: "",
+          section: "News",},{id: "news-i-ll-be-attending-the-2025-empirical-implications-of-theoretical-models-eitm-summer-institute-at-the-university-of-michigan",
+          title: 'I’ll be attending the 2025 Empirical Implications of Theoretical Models (EITM) Summer Institute...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
