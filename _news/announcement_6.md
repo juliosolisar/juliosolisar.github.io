@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be attending the 2025 [Empirical Implications of Theoretical Models (EITM) Summer Institute](https://eitminstitute.org/institute/2025/) at the University of Michigan
+I attended the 2025 [Empirical Implications of Theoretical Models (EITM) Summer Institute](https://eitminstitute.org/institute/2025/) at the University of Michigan
