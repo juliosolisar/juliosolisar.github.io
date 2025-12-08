@@ -190,6 +190,14 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _posts/
+  - _projects/
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/repositories.md
+  - _pages/profiles.md
+  
+
   
 keep_files:
   - CNAME
