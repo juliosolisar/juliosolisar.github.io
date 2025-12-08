@@ -40,4 +40,3 @@ At Harvard, I am a Graduate Student Associate at the [Weatherhead Center for Int
 
 Prior to joining Harvard, I completed my undergraduate studies in Political Science at the [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) in Mexico City and a Master’s in Mathematics, Economics, and Statistics at the [African School of Economics](https://africanschoolofeconomics.com/) in Cotonou, Benin. I also served as a predoctoral research fellow at the [WZB Berlin Social Science Center](https://www.wzb.eu/en/research/political-economy-of-development/institutions-and-political-inequality).
 
-
