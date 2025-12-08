@@ -21,7 +21,6 @@
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
-
 <!--te-->
 
 ## Recommended Approach
