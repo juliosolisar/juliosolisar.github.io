@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I’m attending the Game Theory, Political Economy & Development conference, organized by Université Mohammed VI Polytechnique (UM6P) in Morocco 🇲🇦. I’ll be presenting a poster on consensus in Sub-Saharan Africa
+I attended the Game Theory, Political Economy & Development conference, hosted at Université Mohammed VI Polytechnique (UM6P) in Morocco 🇲🇦.  Check the program <a href="assets/pdf/um6p25.pdf" target="_blank">here</a>
