@@ -14,3 +14,4 @@ vendor
 .venv
 .Rproj.user
 *.Rproj
+.Rhistory
