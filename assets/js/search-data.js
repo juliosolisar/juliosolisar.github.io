@@ -59,7 +59,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-m-a-traveling-scholar-and-a-guest-researcher-at-the-university-of-botswana-for-the-academic-year-2025-6",
           title: 'I’m a Traveling Scholar and a Guest Researcher at the University of Botswana...',
           description: "",
-          section: "News",},{id: "news-i-attended-the-game-theory-political-economy-amp-amp-development-conference-hosted-at-université-mohammed-vi-polytechnique-um6p-in-morocco-check-the-program-here-confirm-changes",
+          section: "News",},{id: "news-i-attended-the-game-theory-political-economy-amp-amp-development-conference-hosted-at-université-mohammed-vi-polytechnique-um6p-in-morocco-check-the-program-here",
           title: 'I attended the Game Theory, Political Economy &amp;amp;amp; Development conference, hosted at Université...',
           description: "",
           section: "News",},{
