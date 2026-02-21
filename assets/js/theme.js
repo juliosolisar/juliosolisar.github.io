@@ -45,7 +45,6 @@ let applyTheme = () => {
     setEchartsTheme(theme);
   }
 
-
   // if Plotly is not defined, do nothing
   if (typeof Plotly !== "undefined") {
     setPlotlyTheme(theme);

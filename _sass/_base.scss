@@ -79,7 +79,6 @@ blockquote {
       color: var(--global-tip-block-text);
     }
 
-
     a,
     h1,
     h2,
@@ -102,7 +101,6 @@ blockquote {
       color: var(--global-warning-block-text);
     }
 
-
     a,
     h1,
     h2,
@@ -124,7 +122,6 @@ blockquote {
     strong {
       color: var(--global-danger-block-text);
     }
-
 
     a,
     h1,
@@ -256,7 +253,6 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-
 .navbar .dropdown-menu,
 .btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
@@ -283,7 +279,6 @@ ul.task-list input[type="checkbox"] {
     background-color: var(--global-bg-color);
   }
 }
-
 
 .dropdown-item.active,
 .dropdown-item:active {
@@ -663,7 +658,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // diff2html - Fix for diff2html line number overflow
 
 .d2h-diff-table {
@@ -920,7 +914,6 @@ pre {
   border-radius: 6px;
   padding: 6px 12px;
 
-
   // Responsive behavior for code blocks
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -1124,7 +1117,6 @@ nav[data-toggle="toc"] {
     height: 0;
     top: 0;
   }
-
 
   /* Responsive code blocks for mobile */
   pre {

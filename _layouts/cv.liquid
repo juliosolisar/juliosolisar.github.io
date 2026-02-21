@@ -93,14 +93,22 @@ layout: default
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
             {% assign section_title = data[0] | capitalize %}
-            {% if data[0] == 'work' %}{% assign section_title = 'Research Experience' %}
-            {% elsif data[0] == 'publications' %}{% assign section_title = 'Research' %}
-            {% elsif data[0] == 'projects' %}{% assign section_title = 'Software Development' %}
-            {% elsif data[0] == 'teaching' %}{% assign section_title = 'Teaching Experience' %}
-            {% elsif data[0] == 'volunteer' %}{% assign section_title = 'Professional Service' %}
-            {% elsif data[0] == 'awards' %}{% assign section_title = 'Fellowships & Grants' %}
-            {% elsif data[0] == 'certificates' %}{% assign section_title = 'Other Relevant Training' %}
-            {% elsif data[0] == 'referee' %}{% assign section_title = 'Referee' %}
+            {% if data[0] == 'work' -%}
+              {%- assign section_title = 'Research Experience' %}
+            {% elsif data[0] == 'publications' -%}
+              {%- assign section_title = 'Research' %}
+            {% elsif data[0] == 'projects' -%}
+              {%- assign section_title = 'Software Development' %}
+            {% elsif data[0] == 'teaching' -%}
+              {%- assign section_title = 'Teaching Experience' %}
+            {% elsif data[0] == 'volunteer' -%}
+              {%- assign section_title = 'Professional Service' %}
+            {% elsif data[0] == 'awards' -%}
+              {%- assign section_title = 'Fellowships & Grants' %}
+            {% elsif data[0] == 'certificates' -%}
+              {%- assign section_title = 'Other Relevant Training' %}
+            {% elsif data[0] == 'referee' -%}
+              {%- assign section_title = 'Referee' %}
             {% endif %}
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
             <div>

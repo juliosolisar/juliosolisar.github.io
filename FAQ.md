@@ -5,10 +5,10 @@ Here are some frequently asked questions. If you have a different question, plea
 <!--ts-->
 
 - [Frequently Asked Questions](#frequently-asked-questions)
-    - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
-    - [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
-    - [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
-    - [My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that)
+  - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
+  - [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
+  - [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
+  - [My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that)
   - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically-1)
   - [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that-1)
   - [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that-1)
@@ -98,7 +98,6 @@ The `set-output` command is deprecated and will be disabled soon. Please upgrade
 If that's the case, you are using deprecated libraries/commands. This happens because you are using a very old version of al-folio. To fix this it is recommended [upgrading your code to the latest version](INSTALL.md#upgrading-from-a-previous-version) of the template. You will probably need to do some manual merging. If you find it easier, you could create a copy of your repository, do a fresh installation from the template and reapply all your changes. For this I would recommend a tool like [meld](https://meldmerge.org/) or [winmerge](https://winmerge.org/) to check the differences between directories/files.
 
 Note that libraries tend to be deprecated and support for them dropped as they are no longer maintained, and keep using them involves security breaches. Also, some of these deprecations are enforced, for example, by GitHub itself, so there's so much we can do. We have also added tons of new functionality, as well as tidying things up and improving the overall speed and structure, so you could also benefit from these improvements.
-
 
 ## I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?
 

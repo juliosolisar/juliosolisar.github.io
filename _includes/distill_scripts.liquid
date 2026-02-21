@@ -13,7 +13,6 @@
   crossorigin="anonymous"
 ></script>
 
-
 <!-- Custom overrides -->
 <script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
 
@@ -84,7 +83,6 @@
   {% endif %}
   <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
-
 
 {% if page.chart and page.chart.plotly %}
   <!-- Plotly -->

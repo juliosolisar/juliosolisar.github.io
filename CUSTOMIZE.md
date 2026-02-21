@@ -160,7 +160,6 @@ If the entry matches one form of the last names and the first names, it will be 
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 
-
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. Note that the keys **MUST BE** lower cased and **MUST NOT** contain accents. This is because the keys are used to match the last names in the BibTeX entries, considering possible variations (see [related discussion](https://github.com/alshedivat/al-folio/discussions/2213)).
 
 ### Buttons (through custom bibtex keywords)
@@ -282,7 +281,6 @@ To remove the repositories, you can:
 
 - delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
 - delete [\_includes/repository/](_includes/repository/) directory
-
 
 ### You can also remove pages through commenting out front-matter blocks
 
