@@ -34,7 +34,7 @@ My research explores political economy and culture, examining how these dynamics
 
 In my work, I integrate insights from economics, political science, and anthropology, employing methods ranging from experimental economics to ethnography.
 
-During the 2025–2026 academic year, I am a Traveling Scholar doing fieldwork in Botswana and a Guest Researcher in the [Department of Political and Administrative Studies](https://www.ub.bw/discover/faculties/social-sciences/political-and-administrative-studies) at the [University of Botswana](https://www.ub.bw/).
+During the 2025–2026 academic year, I am a Traveling Scholar doing fieldwork in Botswana and a Guest Researcher in the Department of Political and Administrative Studies at the [University of Botswana](https://www.ub.bw/).
 
 At Harvard, I am a Graduate Student Associate at the [Weatherhead Center for International Affairs](https://www.wcfia.harvard.edu/), a Graduate Student Affiliate at the [Institute for Quantitative Social Science (IQSS)](https://www.iq.harvard.edu/) and the [Center for International Development (CID)](https://www.hks.harvard.edu/centers/cid), and a regular attendee at the [Culture, Cognition, Coevolution Lab](https://coevolution.fas.harvard.edu/).
 
