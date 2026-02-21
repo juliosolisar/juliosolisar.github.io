@@ -24,14 +24,17 @@
       "area": "Government",
       "studyType": "PhD",
       "startDate": "2021",
-      "endDate": null,
-      "location": "Cambridge, MA, US",
-      "url": "https://www.gov.harvard.edu/"
+      "endDate": "2028",
+      "location": "Cambridge, MA, USA",
+      "url": "https://www.gov.harvard.edu/",
+      "courses": [
+        "Subfields: Comparative Politics; Political Methodology; Political Economy of Development"
+      ]
     },
     {
       "institution": "African School of Economics (ASE)",
       "area": "Mathematics, Economics and Statistics",
-      "studyType": "Master's",
+      "studyType": "Master\u2019s",
       "startDate": "2018",
       "endDate": "2020",
       "location": "Cotonou, Benin",
@@ -39,10 +42,10 @@
     },
     {
       "institution": "Instituto Tecnol\u00f3gico Aut\u00f3nomo de M\u00e9xico (ITAM)",
-      "area": "Political Science",
+      "area": "Political Science (with distinction)",
       "studyType": "BA",
       "startDate": "2011",
-      "endDate": "2017",
+      "endDate": "2018",
       "location": "Mexico City, Mexico",
       "url": "https://www.itam.mx/"
     }
@@ -52,19 +55,23 @@
       "name": "COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries",
       "publisher": "Nature Medicine",
       "releaseDate": "2021",
-      "url": "https://www.nature.com/articles/s41591-021-01454-y"
+      "url": "https://www.nature.com/articles/s41591-021-01454-y",
+      "summary": "Sol\u00eds Arce, Julio S., Shana S. Warren, Niccol\u00f2 F. Meriggi, Alexandra Scacco, Nina McMurry, Maarten Voors, Georgiy Syunyaev et al."
+    },
+    {
+      "name": "Gathering, Evaluating, and Aggregating Social Scientific Models",
+      "publisher": "Submitted: Perspectives on Politics",
+      "releaseDate": "2023",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4570855",
+      "summary": "Golden, Miriam A., Tara Slough, Haoyu Zhai, Alexandra Scacco, Macartan Humphreys, Eva Vivalt, Alberto Diaz-Cayeros et al."
     }
   ],
   "projects": [
     {
-      "name": "Gathering, Evaluating, and Aggregating Social Scientific Models",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4570855",
-      "startDate": "2023"
-    },
-    {
       "name": "CausalQueries: Make, Update, and Query Binary Causal Models",
       "url": "https://cran.r-project.org/web/packages/CausalQueries/index.html",
-      "startDate": "2020"
+      "startDate": "2020",
+      "summary": "Clara Bicalho [ctb], Jasper Cooper [ctb], Macartan Humphreys [aut], Till Tietz [aut, cre], Alan Jacobs [aut], Merlin Heidemanns [ctb], Lily Medina [aut], Julio S. Sol\u00eds Arce [ctb], Georgiy Syunyaev [aut]."
     }
   ],
   "work": [
@@ -73,8 +80,8 @@
       "name": "Harvard University, Department of Economics",
       "startDate": "2022",
       "endDate": "2024",
-      "location": "Cambridge, MA, US",
-      "summary": "Advisor: David Yang"
+      "location": "Cambridge, MA, USA",
+      "summary": "Supervisor: David Yang"
     },
     {
       "position": "Predoctoral Research Fellow",
@@ -82,17 +89,238 @@
       "startDate": "2019",
       "endDate": "2021",
       "location": "Berlin, Germany",
-      "summary": "Advisor: Macartan Humphreys"
+      "summary": "Supervisor: Macartan Humphreys"
+    }
+  ],
+  "teaching": [
+    {
+      "position": "Main Instructor, GOV 97 Comparing Societies: Cross-Cultural Approaches to Politics",
+      "name": "Harvard University",
+      "date": "Spring 2025",
+      "location": "Cambridge, MA, USA"
+    },
+    {
+      "position": "Teaching Fellow, DEV 101 Economic Development: Theory and Evidence",
+      "name": "Harvard Kennedy School",
+      "date": "Fall 2024",
+      "location": "Cambridge, MA, USA",
+      "highlights": ["Faculty: Eliana La Ferrara and Dani Rodrik"]
+    },
+    {
+      "position": "Teaching Fellow, GOV 2003 Causal Inference with Applications",
+      "name": "Harvard University",
+      "date": "Spring 2024",
+      "location": "Cambridge, MA, USA",
+      "highlights": ["Faculty: Kosuke Imai"]
+    },
+    {
+      "position": "Teaching Fellow, GOV 50 Data Science for the Social Sciences",
+      "name": "Harvard University",
+      "date": "Fall 2023",
+      "location": "Cambridge, MA, USA",
+      "highlights": ["Faculty: Matt Blackwell"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Association for Comparative Economic Studies (ACES) Summer School",
+      "issuer": "African School of Economics, Zanzibar, Tanzania",
+      "date": "Summer 2025"
+    },
+    {
+      "name": "Empirical Implications of Theoretical Models (EITM) Summer Institute",
+      "issuer": "University of Michigan, Ann Arbor",
+      "date": "Summer 2025"
+    },
+    {
+      "name": "Toulouse Summer School in Quantitative Social Sciences",
+      "issuer": "Toulouse School of Economics (TSE) and IAST",
+      "date": "Summer 2022"
+    },
+    {
+      "name": "ICPSR Summer Program: Usage and Application of Meta-Analysis Techniques",
+      "issuer": "University of Michigan (Remote)",
+      "date": "Summer 2020"
+    }
+  ],
+  "affiliations": [
+    {
+      "name": "University of Botswana",
+      "position": "Visiting Researcher, Faculty of Social Sciences, Department of Political & Administrative Studies",
+      "startDate": "2025",
+      "endDate": "2026"
+    },
+    {
+      "name": "Kiel Institute for the World Economy (IfW Kiel)",
+      "position": "Visiting Researcher, International Development and Global Cooperation & Social Cohesion Units",
+      "startDate": "2025",
+      "endDate": "2025"
+    },
+    {
+      "name": "Weatherhead Center for International Affairs",
+      "position": "Graduate Student Associate",
+      "startDate": "2024",
+      "endDate": "2025"
+    },
+    {
+      "name": "Institute for Quantitative Social Science (IQSS)",
+      "position": "Graduate Student Affiliate",
+      "startDate": "2022",
+      "endDate": null
+    },
+    {
+      "name": "Center for International Development (CID)",
+      "position": "Graduate Student Affiliate",
+      "startDate": "2024",
+      "endDate": null
+    },
+    {
+      "name": "Culture, Cognition, Coevolution Lab",
+      "position": "Graduate Student Affiliate",
+      "startDate": "2024",
+      "endDate": null
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Yale Identity & Conflict Lab",
+      "date": "2025",
+      "location": "Delphi, Greece"
+    },
+    {
+      "name": "Thurgau Experimental Economics Meeting",
+      "date": "2025",
+      "location": "Thurgau, Switzerland and Konstanz, Germany"
+    },
+    {
+      "name": "American Political Science Association Annual Conference",
+      "date": "2024",
+      "location": "Philadelphia, USA"
+    },
+    {
+      "name": "American Political Science Association Annual Conference",
+      "date": "2023",
+      "location": "Los Angeles, USA"
+    },
+    {
+      "name": "Institute for Advanced Study in Toulouse (IAST) Political Economy Workshop",
+      "date": "2022",
+      "location": "Toulouse, France"
+    },
+    {
+      "name": "Pan-African Scientific Research Council COVID-19 Conference",
+      "date": "2021",
+      "location": "Virtual"
+    },
+    {
+      "name": "American Political Science Association Annual Conference",
+      "date": "2021",
+      "location": "Seattle, USA / Virtual"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Frederick Sheldon Traveling Fellowship",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "The Abdul Latif Jameel Poverty Action Lab (JPAL) Governance Initiative",
+      "awarder": "J-PAL"
+    },
+    {
+      "title": "Ronald Coase Fellowship",
+      "awarder": ""
+    },
+    {
+      "title": "David Rockefeller Center for Latin American Studies Summer Research Travel Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "Weatherhead Center for International Affairs Mid-dissertation Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "Weatherhead Center for International Affairs Pre-dissertation Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "Center for African Studies Graduate Research Travel Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "APSA Advancing Research Grant for Indigenous Politics",
+      "awarder": "American Political Science Association"
+    },
+    {
+      "title": "Philippe Wamba Summer Research Travel Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "Harvard Institute for Quantitative Social Science Research Grant",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "John C. and Katherine Vogelheim Hansen Fund Research and Travel Grant for Africa",
+      "awarder": "Harvard University"
+    },
+    {
+      "title": "Harvard GSAS Division of Social Sciences Research Fund",
+      "awarder": "Harvard University"
+    }
+  ],
+  "referee": [
+    {
+      "name": "Nature: Communications Medicine"
+    }
+  ],
+  "volunteer": [
+    {
+      "position": "Predoctoral Fellow\u2019s Representative (Nachwuchswissenschaftler*innen Speaker)",
+      "organization": "WZB Berlin Social Science Center",
+      "startDate": "2020",
+      "endDate": "2021"
+    },
+    {
+      "position": "Host Team Member",
+      "organization": "Boston-Area Working Group in African Political Economy (BWGAPE), Harvard University",
+      "startDate": "2022",
+      "endDate": "2022"
+    },
+    {
+      "position": "Coordinator",
+      "organization": "Political Economy and Rational Choice (PERC) Graduate Student Workshop, Harvard University",
+      "startDate": "2022",
+      "endDate": "2023"
+    },
+    {
+      "position": "Host Team Member",
+      "organization": "Northeast Workshop in Empirical Political Science (NEWEPS), Harvard University",
+      "startDate": "2023",
+      "endDate": "2023"
+    },
+    {
+      "position": "Co-Chair",
+      "organization": "Department of Government Graduate Student Association, Harvard University",
+      "startDate": "2023",
+      "endDate": "2024"
+    },
+    {
+      "position": "Coordinator",
+      "organization": "Harvard Experiments Working Group Conference",
+      "startDate": "2024",
+      "endDate": "2024"
     }
   ],
   "skills": [
     {
-      "name": "Programming",
+      "name": "R",
       "level": "Advanced",
-      "keywords": [
-        "Python",
-        "R"
-      ]
+      "keywords": ["Statistical modeling", "Data analysis", "Causal inference"]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": ["Data processing", "Machine learning", "NLP"]
     }
   ],
   "languages": [
@@ -105,11 +333,11 @@
       "fluency": "Proficient"
     },
     {
-      "language": "German",
+      "language": "French",
       "fluency": "B1"
     },
     {
-      "language": "French",
+      "language": "German",
       "fluency": "B1"
     }
   ],
@@ -124,11 +352,7 @@
     },
     {
       "name": "Eliana La Ferrara",
-      "reference": "Harvard Kennedy School, elaferrara@hks.harvard.edu"
-    },
-    {
-      "name": "Jacob Moscona",
-      "reference": "MIT, moscona@mit.edu"
+      "reference": "Harvard Kennedy School of Government, elaferrara@hks.harvard.edu"
     },
     {
       "name": "Pia Raffler",
