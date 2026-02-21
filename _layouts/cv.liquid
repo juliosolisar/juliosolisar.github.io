@@ -33,9 +33,7 @@ layout: default
         {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
       {% endif %}
       <div class="cv-pdf-viewer mt-3 mb-4">
-        <object data="{{ cv_pdf_url }}" type="application/pdf" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;">
-          <embed src="{{ cv_pdf_url }}" type="application/pdf" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;">
-        </object>
+        <iframe src="{{ cv_pdf_url }}" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
       </div>
     {% endif %}
 
@@ -97,9 +95,7 @@ layout: default
         {% assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url %}
       {% endif %}
       <div class="cv-pdf-viewer mt-3 mb-4">
-        <object data="{{ cv_pdf_url }}" type="application/pdf" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;">
-          <embed src="{{ cv_pdf_url }}" type="application/pdf" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;">
-        </object>
+        <iframe src="{{ cv_pdf_url }}" width="100%" height="900" style="border: 1px solid #ddd; border-radius: 4px;"></iframe>
       </div>
     {% endif %}
 
