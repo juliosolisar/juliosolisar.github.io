@@ -28,7 +28,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in the Department of Government at Harvard University. My research explores political economy and culture, with a focus on political and economic development in Sub-Saharan Africa.
+I am a PhD candidate in the Department of Government at Harvard University. 
+
+My research explores political economy and culture, with a focus on political and economic development in Sub-Saharan Africa.
 
 During the 2025–2026 academic year, I am a Traveling Scholar doing fieldwork in Botswana and a Guest Researcher in the Department of Political and Administrative Studies at the [University of Botswana](https://www.ub.bw/).
 
