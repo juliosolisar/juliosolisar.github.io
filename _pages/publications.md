@@ -26,4 +26,8 @@ nav_order: 2
 
 {% bibliography --query @*[status=published] %}
 
+<h2 class="bibliography">Project Development</h2>
+
+{% bibliography --query @*[status=pd] %}
+
 </div>
