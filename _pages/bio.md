@@ -21,6 +21,10 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .post article .clearfix p { font-size: 0.92rem; }
+</style>
+
 I am a PhD candidate in the Department of Government at Harvard University. 
 
 My research explores political economy and culture, with a focus on political and economic development in Sub-Saharan Africa.
