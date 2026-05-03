@@ -69,6 +69,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-attended-the-game-theory-political-economy-amp-amp-development-conference-hosted-at-université-mohammed-vi-polytechnique-um6p-in-morocco-check-the-program-here",
           title: 'I attended the Game Theory, Political Economy &amp;amp;amp; Development conference, hosted at Université...',
           description: "",
+          section: "News",},{id: "news-we-are-discussing-my-dissertation-project-at-the-boston-area-working-group-in-african-political-economy",
+          title: 'We are discussing my dissertation project at the Boston Area Working Group in...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
