@@ -7,12 +7,7 @@ subtitle: <a href='https://www.gov.harvard.edu/'>Harvard University - Department
 profile:
   align: left
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>1737 Cambridge Street</p>
-    <p>CGIS Knafel. Office K263</p>
-    <p>Cambridge, MA. 02138</p>
-    <p><a href="mailto:jsolisarce@g.harvard.edu">jsolisarce@g.harvard.edu</a></p> <br>
+  image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
