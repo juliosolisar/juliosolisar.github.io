@@ -8,7 +8,7 @@ subtitle: <a href='https://www.gov.harvard.edu/'>Harvard University - Department
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: IMG_2185_2.jpg
   image_circular: false
 
 selected_papers: false
