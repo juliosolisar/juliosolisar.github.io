@@ -6,7 +6,7 @@ subtitle: <a href='https://www.gov.harvard.edu/'>Harvard University - Department
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: IMG_2185.jpg
   image_circular: false # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
