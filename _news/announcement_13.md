@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be speaking at the [European Political Science Society](https://epssnet.org/) 2026 Annual Conference in Belfast, Northern Ireland (June 18–20).
+I'll be presenting at the [European Political Science Society](https://epssnet.org/) 2026 Annual Conference in Belfast, Northern Ireland (June 18–20).
