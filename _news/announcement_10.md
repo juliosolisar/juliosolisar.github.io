@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We are discussing my dissertation project at the [Boston Area Working Group in African Political Economy](https://bwgape.hsites.harvard.edu/). Check the program <a href="/assets/pdf/bwgape2026.pdf">here</a>.
+We discussed my dissertation project at the [Boston Area Working Group in African Political Economy](https://bwgape.hsites.harvard.edu/). Check the program <a href="/assets/pdf/bwgape2026.pdf">here</a>.
