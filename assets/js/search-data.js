@@ -78,8 +78,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-sharing-my-work-at-the-association-for-the-study-of-religion-economics-and-culture-asrec-and-institute-for-the-study-of-religion-economics-and-society-ires-annual-graduate-student-workshop-at-chapman-university-in-orange-ca-june-5-6",
           title: 'I’ll be sharing my work at the Association for the Study of Religion,...',
           description: "",
-          section: "News",},{id: "news-i-ll-be-speaking-at-the-european-political-science-society-2026-annual-conference-in-belfast-northern-ireland-june-18-20",
-          title: 'I’ll be speaking at the European Political Science Society 2026 Annual Conference in...',
+          section: "News",},{id: "news-i-ll-be-presenting-at-the-european-political-science-society-2026-annual-conference-in-belfast-northern-ireland-june-18-20",
+          title: 'I’ll be presenting at the European Political Science Society 2026 Annual Conference in...',
           description: "",
           section: "News",},{
       id: 'light-theme',
