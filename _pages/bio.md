@@ -22,15 +22,15 @@ latest_posts:
 ---
 
 <style>
-  .post article .clearfix p { font-size: 0.92rem; }
+  .post article .clearfix p { font-size: 1rem; }
 </style>
 
-I am a PhD candidate in the Department of Government at Harvard University. 
+I am a PhD candidate in the Department of Government at Harvard University, where I study political economy and culture.
 
-My research explores political economy and culture, with a focus on political and economic development in Sub-Saharan Africa.
+I was born in Mérida, Yucatán, México, and later moved to Mexico City to pursue my undergraduate studies in Political Science at the [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/). 
 
-During the 2025–2026 academic year, I am a Traveling Scholar doing fieldwork in Botswana and a Guest Researcher in the Department of Political and Administrative Studies at the [University of Botswana](https://www.ub.bw/).
+My interests in political economy and development led me to learn more about governance and culture in Sub-Saharan Africa, which brought me to the [African School of Economics](https://africanschoolofeconomics.com/) in Cotonou, Benin, where I completed a Master’s in Mathematics, Economics, and Statistics. Since then, I have conducted fieldwork in Benin, Botswana, Ghana, and Nigeria. 
 
-At Harvard, I am a Graduate Student Associate at the [Weatherhead Center for International Affairs](https://www.wcfia.harvard.edu/), a Graduate Student Affiliate at the [Institute for Quantitative Social Science (IQSS)](https://www.iq.harvard.edu/) and the [Center for International Development (CID)](https://www.hks.harvard.edu/centers/cid), and a regular attendee at the [Culture, Cognition, Coevolution Lab](https://coevolution.fas.harvard.edu/).
+I also served as a predoctoral research fellow at the [WZB Berlin Social Science Center](https://www.wzb.eu/en/research/political-economy-of-development/institutions-and-political-inequality).
 
-Prior to joining Harvard, I completed my undergraduate studies in Political Science at the [Instituto Tecnológico Autónomo de México (ITAM)](https://www.itam.mx/) in Mexico City and a Master's in Mathematics, Economics, and Statistics at the [African School of Economics](https://africanschoolofeconomics.com/) in Cotonou, Benin. I also served as a predoctoral research fellow at the [WZB Berlin Social Science Center](https://www.wzb.eu/en/research/political-economy-of-development/institutions-and-political-inequality).
+I joined Harvard in 2021. At Harvard, I am a Graduate Student Associate at the [Weatherhead Center for International Affairs](https://www.wcfia.harvard.edu/), a Graduate Student Affiliate at the [Institute for Quantitative Social Science (IQSS)](https://www.iq.harvard.edu/) and the [Center for International Development (CID)](https://www.hks.harvard.edu/centers/cid), and a regular attendee at the [Culture, Cognition, Coevolution Lab](https://coevolution.fas.harvard.edu/).
