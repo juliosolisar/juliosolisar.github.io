@@ -24,8 +24,8 @@ nav_order: 2
 
 <h2 class="bibliography">COVID-19 Collaborative Projects</h2>
 
-{% bibliography --query @*[status=wp] %}
-
 {% bibliography --query @*[status=published] %}
+
+{% bibliography --query @*[status=wp] %}
 
 </div>
