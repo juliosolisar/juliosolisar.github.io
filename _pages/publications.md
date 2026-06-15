@@ -18,16 +18,14 @@ nav_order: 2
 
 {% bibliography --query @*[status=wip] %}
 
-<h2 class="bibliography">Working Papers</h2>
-
-{% bibliography --query @*[status=wp] %}
-
-<h2 class="bibliography">Publications</h2>
-
-{% bibliography --query @*[status=published] %}
-
 <h2 class="bibliography">Project Development</h2>
 
 {% bibliography --query @*[status=pd] %}
+
+<h2 class="bibliography">COVID-19 Collaborative Projects</h2>
+
+{% bibliography --query @*[status=wp] %}
+
+{% bibliography --query @*[status=published] %}
 
 </div>
