@@ -40,6 +40,8 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+    {% if page.announcements and page.announcements.enabled %}<hr>{% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
