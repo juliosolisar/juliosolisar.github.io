@@ -8,6 +8,8 @@ profile:
   align: left
   image: IMG_2185.jpg
   image_circular: false # crops the image to make it circular
+  more_info: >
+    <p><a href="mailto:jsolisarce@g.harvard.edu">jsolisarce@g.harvard.edu</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
