@@ -81,7 +81,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-presented-at-the-european-political-science-society-2026-annual-conference-in-belfast-northern-ireland-june-18-20",
           title: 'I presented at the European Political Science Society 2026 Annual Conference in Belfast,...',
           description: "",
-          section: "News",},{id: "news-we-discussed-my-work-in-botswana-at-the-berlin-meetings-on-the-political-economy-of-development-moped",
+          section: "News",},{id: "news-we-discussed-my-work-in-botswana-at-the-berlin-meetings-on-the-political-economy-of-development-moped-check-the-program-here",
           title: 'We discussed my work in Botswana at the Berlin Meetings on the Political...',
           description: "",
           section: "News",},{
