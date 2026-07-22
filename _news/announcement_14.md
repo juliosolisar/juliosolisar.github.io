@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We discussed my work in Botswana at the Berlin Meetings on the Political Economy of Development ([MoPED](assets/pdf/MoPED_2026_Workshop_Agenda.pdf)).
+We discussed my work in Botswana at the Berlin Meetings on the Political Economy of Development (MOPED). Check the program <a href="/assets/pdf/MoPED_2026_Workshop_Agenda.pdf">here</a>.
