@@ -49,6 +49,8 @@
             {%- assign section_title = 'Other Relevant Training' %}
           {% elsif data[0] == 'referee' -%}
             {%- assign section_title = 'Referee' %}
+          {% elsif data[0] == 'skills' -%}
+            {%- assign section_title = 'Programming' %}
           {% endif %}
           <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
           <div>

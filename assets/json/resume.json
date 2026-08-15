@@ -1,60 +1,50 @@
 {
   "basics": {
-    "name": "Julio S. Sol\u00eds Arce",
-    "label": "PhD Candidate in Government",
+    "name": "Julio S. Solís Arce",
     "email": "jsolisarce@g.harvard.edu",
-    "phone": "+1 617 290 8291",
-    "location": {
-      "city": "Cambridge",
-      "region": "MA",
-      "countryCode": "US"
-    },
-    "website": "https://juliosolisar.github.io",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "juliosolisar",
-        "url": "https://github.com/juliosolisar"
-      }
-    ]
+    "phone": "+1-617-290-8291",
+    "url": "https://juliosolisar.github.io/"
   },
   "education": [
     {
       "institution": "Harvard University",
       "area": "Government",
-      "studyType": "PhD",
+      "studyType": "PhD.",
       "startDate": "2021",
       "endDate": "2028",
+      "date": "2021 - 2028 (Expected)",
       "location": "Cambridge, MA, USA",
       "url": "https://www.gov.harvard.edu/",
       "courses": ["Subfields: Comparative Politics; Political Methodology; Political Economy of Development"]
     },
     {
-      "institution": "African School of Economics (ASE)",
+      "institution": "African School of Economics",
       "area": "Mathematics, Economics and Statistics",
-      "studyType": "Master\u2019s",
-      "startDate": "2018",
-      "endDate": "2020",
+      "studyType": "Master's",
+      "startDate": "2019",
+      "endDate": "2019",
+      "date": "2019",
       "location": "Cotonou, Benin",
       "url": "https://africanschoolofeconomics.com/"
     },
     {
-      "institution": "Instituto Tecnol\u00f3gico Aut\u00f3nomo de M\u00e9xico (ITAM)",
+      "institution": "Instituto Tecnológico Autónomo de México (ITAM)",
       "area": "Political Science (with distinction)",
-      "studyType": "BA",
-      "startDate": "2011",
+      "studyType": "BA.",
+      "startDate": "2018",
       "endDate": "2018",
+      "date": "2018",
       "location": "Mexico City, Mexico",
       "url": "https://www.itam.mx/"
     }
   ],
   "publications": [
     {
-      "name": "COVID-19 vaccine acceptance and hesitancy in low- and middle-income countries",
-      "publisher": "Nature Medicine",
+      "name": "COVID-19 vaccine acceptance and hesitancy in low-and middle-income countries",
+      "publisher": "Nature Medicine 27, no. 8 (2021): 1385-1394",
       "releaseDate": "2021",
       "url": "https://www.nature.com/articles/s41591-021-01454-y",
-      "summary": "Sol\u00eds Arce, Julio S., Shana S. Warren, Niccol\u00f2 F. Meriggi, Alexandra Scacco, Nina McMurry, Maarten Voors, Georgiy Syunyaev et al."
+      "summary": "Solís Arce, Julio S., Shana S. Warren, Niccolò F. Meriggi, Alexandra Scacco, Nina McMurry, Maarten Voors, Georgiy Syunyaev et al."
     },
     {
       "name": "Gathering, Evaluating, and Aggregating Social Scientific Models",
@@ -68,8 +58,7 @@
     {
       "name": "CausalQueries: Make, Update, and Query Binary Causal Models",
       "url": "https://cran.r-project.org/web/packages/CausalQueries/index.html",
-      "startDate": "2020",
-      "summary": "Clara Bicalho [ctb], Jasper Cooper [ctb], Macartan Humphreys [aut], Till Tietz [aut, cre], Alan Jacobs [aut], Merlin Heidemanns [ctb], Lily Medina [aut], Julio S. Sol\u00eds Arce [ctb], Georgiy Syunyaev [aut]."
+      "summary": "Clara Bicalho [ctb], Jasper Cooper [ctb], Macartan Humphreys [aut], Till Tietz [aut, cre], Alan Jacobs [aut], Merlin Heidemanns [ctb], Lily Medina [aut], Julio Solís Arce [ctb], Georgiy Syunyaev [aut], Moritz Marbach [ctb]."
     }
   ],
   "work": [
@@ -82,7 +71,7 @@
       "summary": "Supervisor: David Yang"
     },
     {
-      "position": "Predoctoral Research Fellow",
+      "position": "Predoctoral Research Fellow, Research Unit Institutions and Political Inequality",
       "name": "WZB Berlin Social Science Center",
       "startDate": "2019",
       "endDate": "2021",
@@ -131,8 +120,13 @@
       "date": "Summer 2025"
     },
     {
+      "name": "Association for the Study of Religion, Economics, and Culture (ASREC) Graduate Student Workshop",
+      "issuer": "Chapman University",
+      "date": "Spring 2024"
+    },
+    {
       "name": "Toulouse Summer School in Quantitative Social Sciences",
-      "issuer": "Toulouse School of Economics (TSE) and IAST",
+      "issuer": "Toulouse School of Economics (TSE) and the Institute for Advanced Study in Toulouse (IAST), Toulouse, France",
       "date": "Summer 2022"
     },
     {
@@ -144,46 +138,68 @@
   "affiliations": [
     {
       "name": "University of Botswana",
-      "position": "Visiting Researcher, Faculty of Social Sciences, Department of Political & Administrative Studies",
+      "position": "Visiting Researcher, Faculty of Social Sciences, Department of Political & Admnistrative Studies",
       "startDate": "2025",
-      "endDate": "2026"
+      "endDate": "2026",
+      "date": "2025 - 2026"
     },
     {
       "name": "Kiel Institute for the World Economy (IfW Kiel)",
       "position": "Visiting Researcher, International Development and Global Cooperation & Social Cohesion Units",
       "startDate": "2025",
-      "endDate": "2025"
+      "endDate": "2025",
+      "date": "2025"
     },
     {
       "name": "Weatherhead Center for International Affairs",
       "position": "Graduate Student Associate",
       "startDate": "2024",
-      "endDate": "2025"
+      "date": "2024 - Present (on leave)"
     },
     {
       "name": "Institute for Quantitative Social Science (IQSS)",
       "position": "Graduate Student Affiliate",
       "startDate": "2022",
-      "endDate": null
+      "date": "2022 - Present"
     },
     {
       "name": "Center for International Development (CID)",
       "position": "Graduate Student Affiliate",
       "startDate": "2024",
-      "endDate": null
+      "date": "2024 - Present"
     },
     {
       "name": "Culture, Cognition, Coevolution Lab",
       "position": "Graduate Student Affiliate",
       "startDate": "2024",
-      "endDate": null
+      "date": "2024 - Present"
     }
   ],
   "presentations": [
     {
-      "name": "Yale Identity & Conflict Lab",
-      "date": "2025",
-      "location": "Delphi, Greece"
+      "name": "American Political Science Association- Annual Conference",
+      "date": "2021",
+      "location": "Seattle, WA / Virtual"
+    },
+    {
+      "name": "Pan-African Scientific Research Council- COVID-19 Conference",
+      "date": "2021",
+      "location": "Virtual"
+    },
+    {
+      "name": "Institute for Advanced Study in Toulouse (IAST)- Political Economy Workshop",
+      "date": "2022",
+      "location": "Toulouse, France"
+    },
+    {
+      "name": "American Political Science Association- Annual Conference",
+      "date": "2023",
+      "location": "Los Angeles, CA"
+    },
+    {
+      "name": "American Political Science Association- Annual Conference",
+      "date": "2024",
+      "location": "Philadelphia, PA"
     },
     {
       "name": "Thurgau Experimental Economics Meeting",
@@ -191,79 +207,122 @@
       "location": "Thurgau, Switzerland and Konstanz, Germany"
     },
     {
-      "name": "American Political Science Association Annual Conference",
-      "date": "2024",
-      "location": "Philadelphia, USA"
+      "name": "Yale Identity & Conflict Lab",
+      "date": "2025",
+      "location": "Delphi, Greece"
     },
     {
-      "name": "American Political Science Association Annual Conference",
-      "date": "2023",
-      "location": "Los Angeles, USA"
+      "name": "UMP6- Game Theory, Political Economy & Development",
+      "date": "2025",
+      "location": "Rabat, Morocco"
     },
     {
-      "name": "Institute for Advanced Study in Toulouse (IAST) Political Economy Workshop",
-      "date": "2022",
-      "location": "Toulouse, France"
+      "name": "Boston-Area Working Group in African Political Economy (BWGAPE)",
+      "date": "2026",
+      "location": "Cambridge, MA"
     },
     {
-      "name": "Pan-African Scientific Research Council COVID-19 Conference",
-      "date": "2021",
-      "location": "Virtual"
+      "name": "University of Botswana- Political Studies Seminar",
+      "date": "2026",
+      "location": "Gaborone, Botswana"
     },
     {
-      "name": "American Political Science Association Annual Conference",
-      "date": "2021",
-      "location": "Seattle, USA / Virtual"
+      "name": "Chapman University- Institute for the Study of Religion, Economics and Society (IRES)",
+      "date": "2026",
+      "location": "Orange, CA"
+    },
+    {
+      "name": "European Political Science Society (EPSS)- Annual Conference",
+      "date": "2026",
+      "location": "Belfast, Northern Ireland"
+    },
+    {
+      "name": "WZB Berlin- Meeting on the Political Economy of Development (MoPED)",
+      "date": "2026",
+      "location": "Berlin, Germany"
+    },
+    {
+      "name": "American Political Science Association- Annual Conference",
+      "date": "2026",
+      "location": "Boston, MA"
     }
   ],
   "awards": [
     {
-      "title": "Frederick Sheldon Traveling Fellowship",
-      "awarder": "Harvard University"
+      "title": "Dissertation Writing Grant",
+      "awarder": "Weatherhead Center for International Affairs (Harvard University)"
     },
     {
-      "title": "The Abdul Latif Jameel Poverty Action Lab (JPAL) Governance Initiative",
-      "awarder": "J-PAL"
+      "title": "Merit/Graduate Society Term-Time Research Fellowship",
+      "awarder": "Graduate School of Arts & Sciences (Harvard University)"
+    },
+    {
+      "title": "Mercatus Fellowship",
+      "awarder": "Mercatus Center - George Mason University"
+    },
+    {
+      "title": "Peace & Recovery Initiative Research Grant",
+      "awarder": "Innovations for Poverty Action (IPA)"
+    },
+    {
+      "title": "Crime & Violence Initiative Research Grant",
+      "awarder": "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
+    },
+    {
+      "title": "Piloting Grant",
+      "awarder": "The Weiss Fund for Research in Development Economics Grant"
+    },
+    {
+      "title": "Research Grant",
+      "awarder": "Psychedelics in Society and Culture (Harvard University)"
+    },
+    {
+      "title": "Frederick Sheldon Traveling Fellowship",
+      "awarder": "Harvard Committee on General Scholarships"
+    },
+    {
+      "title": "Governance Initiative Research Grant",
+      "awarder": "Abdul Latif Jameel Poverty Action Lab (J-PAL)"
     },
     {
       "title": "Ronald Coase Fellowship",
-      "awarder": ""
+      "awarder": "Mercatus Center - George Mason University"
     },
     {
-      "title": "David Rockefeller Center for Latin American Studies Summer Research Travel Grant",
-      "awarder": "Harvard University"
+      "title": "Summer Research Travel Grant",
+      "awarder": "David Rockefeller Center for Latin American Studies (Harvard University)"
     },
     {
-      "title": "Weatherhead Center for International Affairs Mid-dissertation Grant",
-      "awarder": "Harvard University"
+      "title": "Mid-Dissertation Grant",
+      "awarder": "Weatherhead Center for International Affairs (Harvard University)"
     },
     {
-      "title": "Weatherhead Center for International Affairs Pre-dissertation Grant",
-      "awarder": "Harvard University"
+      "title": "Pre-Dissertation Grant",
+      "awarder": "Weatherhead Center for International Affairs (Harvard University)"
     },
     {
-      "title": "Center for African Studies Graduate Research Travel Grant",
-      "awarder": "Harvard University"
+      "title": "Graduate Research Travel Grant",
+      "awarder": "Center for African Studies (Harvard University)"
     },
     {
-      "title": "APSA Advancing Research Grant for Indigenous Politics",
+      "title": "Advancing Research Grant for Indigenous Politics",
       "awarder": "American Political Science Association"
     },
     {
       "title": "Philippe Wamba Summer Research Travel Grant",
-      "awarder": "Harvard University"
+      "awarder": "Department of African & African American Studies (Harvard University)"
     },
     {
-      "title": "Harvard Institute for Quantitative Social Science Research Grant",
-      "awarder": "Harvard University"
+      "title": "Research Grant",
+      "awarder": "Institute for Quantitative Social Science (Harvard University)"
     },
     {
       "title": "John C. and Katherine Vogelheim Hansen Fund Research and Travel Grant for Africa",
-      "awarder": "Harvard University"
+      "awarder": "Graduate School of Arts & Sciences (Harvard University)"
     },
     {
-      "title": "Harvard GSAS Division of Social Sciences Research Fund",
-      "awarder": "Harvard University"
+      "title": "Summer Research Fund",
+      "awarder": "Graduate School of Arts & Sciences- Division of Social Sciences (Harvard University)"
     }
   ],
   "referee": [
@@ -273,52 +332,46 @@
   ],
   "volunteer": [
     {
-      "position": "Predoctoral Fellow\u2019s Representative (Nachwuchswissenschaftler*innen Speaker)",
+      "position": "Predoctoral Fellow's Representative (Nachwuchswissenschaftler*innen Speaker)",
       "organization": "WZB Berlin Social Science Center",
       "startDate": "2020",
-      "endDate": "2021"
+      "endDate": "2021",
+      "date": "2020 - 2021"
     },
     {
       "position": "Host Team Member",
       "organization": "Boston-Area Working Group in African Political Economy (BWGAPE), Harvard University",
       "startDate": "2022",
-      "endDate": "2022"
+      "endDate": "2022",
+      "date": "2022"
     },
     {
       "position": "Coordinator",
       "organization": "Political Economy and Rational Choice (PERC) Graduate Student Workshop, Harvard University",
       "startDate": "2022",
-      "endDate": "2023"
+      "endDate": "2023",
+      "date": "2022 - 2023"
     },
     {
       "position": "Host Team Member",
       "organization": "Northeast Workshop in Empirical Political Science (NEWEPS), Harvard University",
       "startDate": "2023",
-      "endDate": "2023"
+      "endDate": "2023",
+      "date": "2023"
     },
     {
       "position": "Co-Chair",
       "organization": "Department of Government Graduate Student Association, Harvard University",
       "startDate": "2023",
-      "endDate": "2024"
+      "endDate": "2024",
+      "date": "2023 - 2024"
     },
     {
       "position": "Coordinator",
       "organization": "Harvard Experiments Working Group Conference",
       "startDate": "2024",
-      "endDate": "2024"
-    }
-  ],
-  "skills": [
-    {
-      "name": "R",
-      "level": "Advanced",
-      "keywords": ["Statistical modeling", "Data analysis", "Causal inference"]
-    },
-    {
-      "name": "Python",
-      "level": "Intermediate",
-      "keywords": ["Data processing", "Machine learning", "NLP"]
+      "endDate": "2024",
+      "date": "2024"
     }
   ],
   "languages": [
@@ -339,26 +392,46 @@
       "fluency": "B1"
     }
   ],
+  "skills": [
+    {
+      "name": "R",
+      "level": "Advanced"
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate"
+    }
+  ],
   "references": [
     {
       "name": "Macartan Humphreys",
-      "reference": "WZB Berlin Social Science Center, macartan.humphreys@wzb.eu"
-    },
-    {
-      "name": "Torben Iversen",
-      "reference": "Harvard University, iversen@fas.harvard.edu"
+      "institution": "WZB Berlin Social Science Center",
+      "email": "macartan.humphreys@wzb.eu",
+      "phone": "+49 (302) 549-1369"
     },
     {
       "name": "Eliana La Ferrara",
-      "reference": "Harvard Kennedy School of Government, elaferrara@hks.harvard.edu"
+      "institution": "Harvard Kennedy School of Government",
+      "email": "elaferrara@hks.harvard.edu",
+      "phone": "+1 (617) 251-3789"
     },
     {
       "name": "Pia Raffler",
-      "reference": "Harvard University, praffler@gov.harvard.edu"
+      "institution": "Harvard University",
+      "email": "praffler@gov.harvard.edu",
+      "phone": "+1 (617) 495-4765"
+    },
+    {
+      "name": "James A. Robinson",
+      "institution": "University of Chicago",
+      "email": "jamesrobinson@uchicago.edu",
+      "phone": "+1 (617) 515-2270"
     },
     {
       "name": "Leonard Wantchekon",
-      "reference": "Princeton University and African School of Economics, lwantche@princeton.edu"
+      "institution": "Princeton University and African School of Economics",
+      "email": "lwantche@princeton.edu",
+      "phone": "+1 (609) 258-6723"
     }
   ]
 }

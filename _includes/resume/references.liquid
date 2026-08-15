@@ -21,7 +21,19 @@
           <tr>
             <td></td>
             <td class="list-group-name">
-              <b>{{ content.reference }}</b>
+              {% if content.institution or content.email or content.phone %}
+                {% if content.institution %}
+                  <b>{{ content.institution }}</b><br>
+                {% endif %}
+                {% if content.email %}
+                  Email: <a href="mailto:{{ content.email }}">{{ content.email }}</a><br>
+                {% endif %}
+                {% if content.phone %}
+                  Phone: <a href="tel:{{ content.phone | remove: ' ' | remove: '(' | remove: ')' }}">{{ content.phone }}</a>
+                {% endif %}
+              {% else %}
+                <b>{{ content.reference }}</b>
+              {% endif %}
             </td>
           </tr>
         </tbody>
