@@ -1,0 +1,36 @@
+{% if page.cv_pdf_preview and page.cv_pdf_preview_pages %}
+  <section
+    class="cv-pdf-viewer mt-3 mb-4"
+    aria-label="Curriculum vitae preview, {{ page.cv_pdf_preview_pages }} pages"
+  >
+    {% for page_number in (1..page.cv_pdf_preview_pages) %}
+      {% assign cv_preview_page = 'assets/img/cv/'
+        | append: page.cv_pdf_preview
+        | append: '/page-'
+        | append: page_number
+        | append: '.png'
+        | relative_url
+      %}
+      <img
+        class="cv-pdf-page"
+        src="{{ cv_preview_page }}"
+        alt="Curriculum vitae, page {{ page_number }} of {{ page.cv_pdf_preview_pages }}"
+        width="1191"
+        height="1684"
+        {% if page_number == 1 %}
+          loading="eager"
+          fetchpriority="high"
+        {% else %}
+          loading="lazy"
+        {% endif %}
+      >
+    {% endfor %}
+  </section>
+{% else %}
+  <div class="cv-pdf-fallback mt-3 mb-4">
+    <p class="mb-0">
+      This CV cannot be previewed in your browser.
+      <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Open the PDF</a> instead.
+    </p>
+  </div>
+{% endif %}

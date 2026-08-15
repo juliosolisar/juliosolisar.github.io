@@ -1080,7 +1080,8 @@ progress::-moz-progress-bar {
 }
 
 /* Table of Contents */
-nav[data-toggle="toc"] {
+nav[data-toggle="toc"],
+#toc-sidebar {
   top: 5rem;
 
   .nav .nav > li > a {
@@ -1112,9 +1113,9 @@ nav[data-toggle="toc"] {
 /* small screens */
 @media (max-width: 576px) {
   /* override stickyness so that the navigation does not follow scrolling */
-  nav[data-toggle="toc"] {
-    visibility: hidden;
-    height: 0;
+  nav[data-toggle="toc"],
+  #toc-sidebar {
+    display: none;
     top: 0;
   }
 
