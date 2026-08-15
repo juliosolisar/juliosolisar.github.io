@@ -1,36 +1,43 @@
-{% if page.cv_pdf_preview and page.cv_pdf_preview_pages %}
-  <section
-    class="cv-pdf-viewer mt-3 mb-4"
-    aria-label="Curriculum vitae preview, {{ page.cv_pdf_preview_pages }} pages"
-  >
-    {% for page_number in (1..page.cv_pdf_preview_pages) %}
-      {% assign cv_preview_page = 'assets/img/cv/'
-        | append: page.cv_pdf_preview
-        | append: '/page-'
-        | append: page_number
-        | append: '.png'
-        | relative_url
-      %}
-      <img
-        class="cv-pdf-page"
-        src="{{ cv_preview_page }}"
-        alt="Curriculum vitae, page {{ page_number }} of {{ page.cv_pdf_preview_pages }}"
-        width="1191"
-        height="1684"
-        {% if page_number == 1 %}
-          loading="eager"
-          fetchpriority="high"
-        {% else %}
-          loading="lazy"
-        {% endif %}
-      >
-    {% endfor %}
-  </section>
-{% else %}
-  <div class="cv-pdf-fallback mt-3 mb-4">
-    <p class="mb-0">
-      This CV cannot be previewed in your browser.
-      <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Open the PDF</a> instead.
-    </p>
+{% assign pdfjs_base_url = '/assets/pdfjs/' | relative_url %}
+<section
+  class="cv-pdf-viewer mt-3 mb-4"
+  data-pdf-url="{{ cv_pdf_url }}"
+  data-pdfjs-base-url="{{ pdfjs_base_url }}"
+  aria-label="Embedded curriculum vitae"
+>
+  <div class="cv-pdf-toolbar" role="toolbar" aria-label="CV viewer controls">
+    <div class="cv-pdf-toolbar-group">
+      <button type="button" class="cv-pdf-control" data-pdf-action="zoom-out" aria-label="Zoom out" disabled>−</button>
+      <button type="button" class="cv-pdf-control cv-pdf-fit" data-pdf-action="fit" disabled>Fit width</button>
+      <button type="button" class="cv-pdf-control" data-pdf-action="zoom-in" aria-label="Zoom in" disabled>+</button>
+    </div>
+
+    <span class="cv-pdf-page-status" data-pdf-page-status aria-live="polite">Loading PDF…</span>
+
+    <a class="cv-pdf-open" href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Open PDF</a>
   </div>
-{% endif %}
+
+  <div class="cv-pdf-viewport" data-pdf-viewport tabindex="0" aria-label="Scrollable CV document">
+    <div class="cv-pdf-loading" data-pdf-loading role="status">
+      <span class="cv-pdf-spinner" aria-hidden="true"></span>
+      <span data-pdf-loading-text>Loading CV…</span>
+      <small> If the viewer does not load, <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">open the PDF</a>. </small>
+    </div>
+
+    <div class="cv-pdf-pages" data-pdf-pages hidden></div>
+
+    <div class="cv-pdf-error" data-pdf-error role="alert" hidden>
+      <strong>The embedded viewer could not load this PDF.</strong>
+      <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Open the CV directly</a>.
+    </div>
+  </div>
+</section>
+
+<noscript>
+  <p class="cv-pdf-fallback mt-3 mb-4">
+    JavaScript is required for the embedded viewer.
+    <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer">Open the CV as a PDF</a>.
+  </p>
+</noscript>
+
+<script type="module" src="{{ '/assets/js/cv-pdf-viewer.js' | relative_url | bust_file_cache }}"></script>

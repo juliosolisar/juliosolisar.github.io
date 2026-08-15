@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "vendor:pdfjs": "node bin/vendor-pdfjs.mjs"
+  },
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "1.4.0",
+    "pdfjs-dist": "6.2.108",
     "prettier": "3.1.1"
   }
 }

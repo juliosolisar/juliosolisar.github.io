@@ -3,18 +3,187 @@
  *****************************/
 
 .cv-pdf-viewer {
-  display: grid;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.375rem;
+  background: var(--global-card-bg-color);
+}
+
+.cv-pdf-toolbar {
+  display: flex;
+  min-height: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+}
+
+.cv-pdf-toolbar-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.cv-pdf-control,
+.cv-pdf-open {
+  min-height: 2rem;
+  padding: 0.25rem 0.625rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  color: var(--global-text-color);
+  background: var(--global-card-bg-color);
+  font: inherit;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.cv-pdf-control {
+  min-width: 2rem;
+  cursor: pointer;
+
+  &:hover:not(:disabled),
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+  }
+
+  &:disabled {
+    cursor: wait;
+    opacity: 0.5;
+  }
+}
+
+.cv-pdf-fit {
+  min-width: 5.25rem;
+}
+
+.cv-pdf-open {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
+.cv-pdf-page-status {
+  flex: 1;
+  color: var(--global-text-color-light);
+  font-size: 0.875rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.cv-pdf-viewport {
+  position: relative;
+  height: min(78vh, 900px);
+  min-height: 32rem;
+  overflow: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-x pan-y;
+  background: #e9ecef;
+  scrollbar-gutter: stable;
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: -2px;
+  }
+}
+
+@supports (height: 1svh) {
+  .cv-pdf-viewport {
+    height: min(78svh, 900px);
+  }
+}
+
+.cv-pdf-pages {
+  display: flex;
+  width: max-content;
+  min-width: 100%;
+  min-height: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
   gap: 1rem;
+  padding: 1rem;
 }
 
 .cv-pdf-page {
-  display: block;
-  width: 100%;
-  height: auto;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
   background: #fff;
-  border: 1px solid var(--global-divider-color);
-  border-radius: 0.25rem;
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.16);
+
+  canvas {
+    display: block;
+  }
+}
+
+.cv-pdf-annotation-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  a {
+    position: absolute;
+    pointer-events: auto;
+
+    &:hover,
+    &:focus-visible {
+      outline: 2px solid rgba(183, 28, 28, 0.45);
+      background: rgba(183, 28, 28, 0.12);
+    }
+  }
+}
+
+.cv-pdf-loading,
+.cv-pdf-error {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 2rem;
+  color: #343a40;
+  background: rgba(233, 236, 239, 0.96);
+  text-align: center;
+
+  small,
+  strong {
+    color: inherit;
+  }
+}
+
+.cv-pdf-loading[hidden],
+.cv-pdf-error[hidden],
+.cv-pdf-pages[hidden] {
+  display: none;
+}
+
+.cv-pdf-spinner {
+  width: 2rem;
+  height: 2rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.15);
+  border-top-color: var(--global-theme-color);
+  border-radius: 50%;
+  animation: cv-pdf-spin 0.8s linear infinite;
+}
+
+@keyframes cv-pdf-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .cv-pdf-fallback {
@@ -22,6 +191,39 @@
   border: 1px solid var(--global-divider-color);
   border-radius: 0.25rem;
   background: var(--global-card-bg-color);
+}
+
+@media (max-width: 576px) {
+  .cv-pdf-toolbar {
+    gap: 0.4rem;
+    padding: 0.5rem;
+  }
+
+  .cv-pdf-page-status {
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .cv-pdf-open {
+    margin-left: auto;
+  }
+
+  .cv-pdf-viewport {
+    height: 72vh;
+    min-height: 26rem;
+  }
+
+  @supports (height: 1svh) {
+    .cv-pdf-viewport {
+      height: 72svh;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cv-pdf-spinner {
+    animation-duration: 1.5s;
+  }
 }
 
 div.container-link-button {
