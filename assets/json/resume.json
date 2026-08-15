@@ -404,34 +404,40 @@
   ],
   "references": [
     {
-      "name": "Macartan Humphreys",
-      "institution": "WZB Berlin Social Science Center",
-      "email": "macartan.humphreys@wzb.eu",
-      "phone": "+49 (302) 549-1369"
+      "group": "PhD",
+      "name": "Torben Iversen",
+      "institution": "Harvard University",
+      "email": "iversen@fas.harvard.edu"
     },
     {
+      "group": "PhD",
       "name": "Eliana La Ferrara",
       "institution": "Harvard Kennedy School of Government",
-      "email": "elaferrara@hks.harvard.edu",
-      "phone": "+1 (617) 251-3789"
+      "email": "elaferrara@hks.harvard.edu"
     },
     {
+      "group": "PhD",
       "name": "Pia Raffler",
       "institution": "Harvard University",
-      "email": "praffler@gov.harvard.edu",
-      "phone": "+1 (617) 495-4765"
+      "email": "praffler@gov.harvard.edu"
     },
     {
+      "group": "Other",
+      "name": "Macartan Humphreys",
+      "institution": "WZB Berlin Social Science Center",
+      "email": "macartan.humphreys@wzb.eu"
+    },
+    {
+      "group": "Other",
       "name": "James A. Robinson",
       "institution": "University of Chicago",
-      "email": "jamesrobinson@uchicago.edu",
-      "phone": "+1 (617) 515-2270"
+      "email": "jamesrobinson@uchicago.edu"
     },
     {
+      "group": "Other",
       "name": "Leonard Wantchekon",
       "institution": "Princeton University and African School of Economics",
-      "email": "lwantche@princeton.edu",
-      "phone": "+1 (609) 258-6723"
+      "email": "lwantche@princeton.edu"
     }
   ]
 }

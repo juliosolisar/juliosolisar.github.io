@@ -1,5 +1,10 @@
 <div class="list-groups">
+  {% assign current_group = '' %}
   {% for content in data[1] %}
+    {% if content.group and content.group != current_group %}
+      <h5 class="col-12 font-weight-bold mt-2 mb-3">{{ content.group }}</h5>
+      {% assign current_group = content.group %}
+    {% endif %}
     <div class="list-group col-md-6">
       <table class="table-cv list-group-table">
         <tbody>
@@ -21,15 +26,12 @@
           <tr>
             <td></td>
             <td class="list-group-name">
-              {% if content.institution or content.email or content.phone %}
+              {% if content.institution or content.email %}
                 {% if content.institution %}
                   <b>{{ content.institution }}</b><br>
                 {% endif %}
                 {% if content.email %}
                   Email: <a href="mailto:{{ content.email }}">{{ content.email }}</a><br>
-                {% endif %}
-                {% if content.phone %}
-                  Phone: <a href="tel:{{ content.phone | remove: ' ' | remove: '(' | remove: ')' }}">{{ content.phone }}</a>
                 {% endif %}
               {% else %}
                 <b>{{ content.reference }}</b>
