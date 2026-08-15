@@ -3,6 +3,7 @@
   class="cv-pdf-viewer mt-3 mb-4"
   data-pdf-url="{{ cv_pdf_url }}"
   data-pdfjs-base-url="{{ pdfjs_base_url }}"
+  data-pdf-state="loading"
   aria-label="Embedded curriculum vitae"
 >
   <div class="cv-pdf-toolbar" role="toolbar" aria-label="CV viewer controls">
@@ -41,3 +42,24 @@
 </noscript>
 
 <script type="module" src="{{ '/assets/js/cv-pdf-viewer.js' | relative_url | bust_file_cache }}"></script>
+<script>
+  (function () {
+    var moduleScript = document.currentScript.previousElementSibling;
+    var viewer = document.querySelector('.cv-pdf-viewer[data-pdf-state="loading"]');
+
+    if (!viewer) return;
+
+    var showCompatibilityFallback = function () {
+      if (viewer.getAttribute('data-pdf-state') !== 'loading') return;
+
+      viewer.setAttribute('data-pdf-state', 'error');
+      viewer.querySelector('[data-pdf-loading]').hidden = true;
+      viewer.querySelector('[data-pdf-pages]').hidden = true;
+      viewer.querySelector('[data-pdf-error]').hidden = false;
+      viewer.querySelector('[data-pdf-page-status]').textContent = 'Viewer unavailable';
+    };
+
+    moduleScript.addEventListener('error', showCompatibilityFallback);
+    window.setTimeout(showCompatibilityFallback, 15000);
+  })();
+</script>

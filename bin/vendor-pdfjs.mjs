@@ -12,7 +12,7 @@ const files = [
   ["LICENSE", "LICENSE"],
 ];
 
-const directories = ["cmaps", "iccs", "standard_fonts", "wasm"];
+const directories = ["cmaps", "standard_fonts"];
 
 await rm(outputRoot, { force: true, recursive: true });
 await mkdir(outputRoot, { recursive: true });

@@ -48,9 +48,12 @@ class CvPdfViewer {
         url: this.pdfUrl,
         cMapUrl: `${this.pdfjsBaseUrl}cmaps/`,
         cMapPacked: true,
-        iccUrl: `${this.pdfjsBaseUrl}iccs/`,
         standardFontDataUrl: `${this.pdfjsBaseUrl}standard_fonts/`,
-        wasmUrl: `${this.pdfjsBaseUrl}wasm/`,
+        // Safari has had intermittent OffscreenCanvas PDF rendering defects.
+        // This viewer only renders three pages, so the main-thread canvas path
+        // is a small and worthwhile compatibility tradeoff.
+        isOffscreenCanvasSupported: false,
+        isEvalSupported: false,
       });
 
       loadingTask.onProgress = ({ loaded, total }) => {
@@ -100,6 +103,7 @@ class CvPdfViewer {
       if (generation !== this.renderGeneration) return;
 
       this.loading.hidden = true;
+      this.root.dataset.pdfState = "ready";
       this.currentPage = pageToRestore;
       this.updateStatus();
 
@@ -219,6 +223,7 @@ class CvPdfViewer {
   }
 
   showError() {
+    this.root.dataset.pdfState = "error";
     this.loading.hidden = true;
     this.pagesContainer.hidden = true;
     this.error.hidden = false;

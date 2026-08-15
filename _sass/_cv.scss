@@ -3,6 +3,8 @@
  *****************************/
 
 .cv-pdf-viewer {
+  width: 100%;
+  max-width: 100%;
   overflow: hidden;
   border: 1px solid var(--global-divider-color);
   border-radius: 0.375rem;
@@ -84,7 +86,8 @@
   position: relative;
   height: min(78vh, 900px);
   min-height: 32rem;
-  overflow: auto;
+  overflow-x: auto;
+  overflow-y: scroll;
   overscroll-behavior: contain;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-x pan-y;
@@ -104,23 +107,23 @@
 }
 
 .cv-pdf-pages {
-  display: flex;
-  width: max-content;
+  width: 100%;
   min-width: 100%;
   min-height: 100%;
   box-sizing: border-box;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
   padding: 1rem;
 }
 
 .cv-pdf-page {
   position: relative;
-  flex: 0 0 auto;
+  margin: 0 auto 1rem;
   overflow: hidden;
   background: #fff;
   box-shadow: 0 0.25rem 0.9rem rgba(0, 0, 0, 0.16);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 
   canvas {
     display: block;
@@ -209,13 +212,13 @@
   }
 
   .cv-pdf-viewport {
-    height: 72vh;
+    height: 70vh;
     min-height: 26rem;
   }
 
   @supports (height: 1svh) {
     .cv-pdf-viewport {
-      height: 72svh;
+      height: 70svh;
     }
   }
 }
