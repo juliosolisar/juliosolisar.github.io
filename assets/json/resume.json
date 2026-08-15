@@ -420,24 +420,6 @@
       "name": "Pia Raffler",
       "institution": "Harvard University",
       "email": "praffler@gov.harvard.edu"
-    },
-    {
-      "group": "Other",
-      "name": "Macartan Humphreys",
-      "institution": "WZB Berlin Social Science Center",
-      "email": "macartan.humphreys@wzb.eu"
-    },
-    {
-      "group": "Other",
-      "name": "James A. Robinson",
-      "institution": "University of Chicago",
-      "email": "jamesrobinson@uchicago.edu"
-    },
-    {
-      "group": "Other",
-      "name": "Leonard Wantchekon",
-      "institution": "Princeton University and African School of Economics",
-      "email": "lwantche@princeton.edu"
     }
   ]
 }
