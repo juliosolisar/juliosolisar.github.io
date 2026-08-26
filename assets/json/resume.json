@@ -112,27 +112,32 @@
     {
       "name": "Association for Comparative Economic Studies (ACES) Summer School",
       "issuer": "African School of Economics, Zanzibar, Tanzania",
-      "date": "Summer 2025"
+      "date": "Summer 2025",
+      "url": "https://www.acesecon.org/conferences/2025-summer-school"
     },
     {
       "name": "Empirical Implications of Theoretical Models (EITM) Summer Institute",
       "issuer": "University of Michigan, Ann Arbor",
-      "date": "Summer 2025"
+      "date": "Summer 2025",
+      "url": "https://eitminstitute.org/"
     },
     {
       "name": "Association for the Study of Religion, Economics, and Culture (ASREC) Graduate Student Workshop",
       "issuer": "Chapman University",
-      "date": "Spring 2024"
+      "date": "Spring 2024",
+      "url": "https://www.asrec.org/wp-content/uploads/2024/03/2024-ASREC-Grad-Program.-Final.-FINAL.pdf"
     },
     {
       "name": "Toulouse Summer School in Quantitative Social Sciences",
       "issuer": "Toulouse School of Economics (TSE) and the Institute for Advanced Study in Toulouse (IAST), Toulouse, France",
-      "date": "Summer 2022"
+      "date": "Summer 2022",
+      "url": "https://www.tse-fr.eu/toulouse-summer-school-quantitative-social-sciences"
     },
     {
       "name": "ICPSR Summer Program: Usage and Application of Meta-Analysis Techniques",
       "issuer": "University of Michigan (Remote)",
-      "date": "Summer 2020"
+      "date": "Summer 2020",
+      "url": "https://www.icpsr.umich.edu/sites/icpsr/sumprog"
     }
   ],
   "affiliations": [
